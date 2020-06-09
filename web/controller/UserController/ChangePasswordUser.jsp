@@ -27,9 +27,9 @@
 
             user.update();
 			
-	        response.sendRedirect("/AquaPets/web/session/change-password.jsp");
+	        response.sendRedirect("/web-project-theory/web/session/change-password.jsp");
     	} else {
-        	response.sendRedirect("/AquaPets/web/layout/change-password.jsp?status=danger&message=Wrong Password!");
+        	response.sendRedirect("/web-project-theory/web/layout/change-password.jsp?status=danger&message=Wrong Password!");
     	} 
     }
 %>

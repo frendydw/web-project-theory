@@ -36,6 +36,6 @@
 	}
     
 
-    response.sendRedirect("/AquaPets/web/controller/ProductController/StockUpdate.jsp?product_id=" + product_id + "&quantity=" + quantity + "&quantity_temp=" + quantity_temp + "&text=" + text);
+    response.sendRedirect("/web-project-theory/web/controller/ProductController/StockUpdate.jsp?product_id=" + product_id + "&quantity=" + quantity + "&quantity_temp=" + quantity_temp + "&text=" + text);
 %>
 
